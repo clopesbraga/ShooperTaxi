@@ -10,8 +10,7 @@ class ShooperApi {
 
     companion object {
         private lateinit var instance: Retrofit
-        private var baseUrl =
-            "https://xd5zl5kk2yltomvw5fb37y3bm40vsyrx.lambda-url.sa-east-1.on.aws."
+        private var baseUrl ="https://xd5zl5kk2yltomvw5fb37y3bm40vsyrx.lambda-url.sa-east-1.on.aws"
 
         private fun getInstance(): Retrofit {
 
